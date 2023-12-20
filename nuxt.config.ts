@@ -16,8 +16,12 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    'nuxt-gtag',
     // Remove it if you don't use Plausible analytics
     // https://github.com/nuxt-modules/plausible
     // '@nuxtjs/plausible'
-  ]
+  ],
+  gtag: {
+    id: 'G-XXXXXXXXXX'
+  }
 })
