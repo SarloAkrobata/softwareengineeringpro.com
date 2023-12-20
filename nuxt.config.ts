@@ -28,4 +28,7 @@ export default defineNuxtConfig({
   site: {
     url: 'https://softwareengineeringpro.com',
   },
+  sitemap: {
+    autoLastmod: true
+  } 
 })
