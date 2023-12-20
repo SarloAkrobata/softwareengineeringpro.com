@@ -16,6 +16,7 @@ export default defineNuxtConfig({
     }
   },
   modules: [
+    'nuxt-simple-sitemap',
     'nuxt-gtag',
     // Remove it if you don't use Plausible analytics
     // https://github.com/nuxt-modules/plausible
@@ -23,5 +24,8 @@ export default defineNuxtConfig({
   ],
   gtag: {
     id: 'G-0VEZY7GBEH'
-  }
+  },
+  site: {
+    url: 'https://softwareengineeringpro.com',
+  },
 })
