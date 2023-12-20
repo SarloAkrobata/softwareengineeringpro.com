@@ -22,6 +22,6 @@ export default defineNuxtConfig({
     // '@nuxtjs/plausible'
   ],
   gtag: {
-    id: 'G-XXXXXXXXXX'
+    id: 'G-0VEZY7GBEH'
   }
 })
