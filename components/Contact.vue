@@ -36,6 +36,7 @@
         });
         const result = await response.json();
         if (result.success) {
+          await navigateTo('/thanks')
           console.log(result);
         }
       },
